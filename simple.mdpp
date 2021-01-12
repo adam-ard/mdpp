@@ -1,0 +1,30 @@
+# Example File
+
+## Examples
+
+Check what directory your in with this command:
+
+```bash MDPP_CMD{"Id":1, "Dir":"~/code"}
+pwd
+```
+
+if should look like this:
+
+```bash MDPP_RESULT{"SrcId":1, "Auto": true}
+```
+
+See what files are in that directory:
+
+```bash MDPP_CMD{"Id":2, "Dir":"~/code"}
+ls -al
+```
+
+It should look like this:
+
+```bash MDPP_RESULT{"SrcId":2, "Auto": true}
+```
+
+Here it is again, incase you missed it ;)
+
+```bash MDPP_RESULT{"SrcId":2, "Auto": true}
+```
